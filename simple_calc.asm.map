@@ -1,0 +1,204 @@
+MPLINK 4.41, Linker
+Linker Map File - Created Thu Jun 23 15:17:54 2022
+
+                                 Section Info
+                  Section       Type    Address   Location Size(Bytes)
+                ---------  ---------  ---------  ---------  ---------
+                   .org_0       code   0x000000    program   0x000002
+                   .cinit    romdata   0x000001    program   0x000004
+                   .org_1       code   0x000004    program   0x000478
+.config_2007_SIMPLE_CALC.O       code   0x002007    program   0x000002
+
+
+
+                              Program Memory Usage 
+                               Start         End      
+                           ---------   ---------      
+                            0x000000    0x000002      
+                            0x000004    0x00023f      
+                            0x002007    0x002007      
+            576 out of 8454 program addresses used, program memory utilization is 6%
+
+
+
+                              Symbols - Sorted by Name
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                      ISR   0x000001    program     static D:\Real Time\simple calc\simple_calc.asm
+                MUL_BY_10   0x0001c3    program     static D:\Real Time\simple calc\simple_calc.asm
+               MUL_BY_100   0x0001bc    program     static D:\Real Time\simple calc\simple_calc.asm
+                 RBO_INTR   0x000028    program     static D:\Real Time\simple calc\simple_calc.asm
+                RBO_INTR1   0x000048    program     static D:\Real Time\simple calc\simple_calc.asm
+                RBO_INTR2   0x000071    program     static D:\Real Time\simple calc\simple_calc.asm
+                RBO_INTR3   0x0000a0    program     static D:\Real Time\simple calc\simple_calc.asm
+                RBO_INTR4   0x0000c0    program     static D:\Real Time\simple calc\simple_calc.asm
+                RBO_INTR5   0x0000e0    program     static D:\Real Time\simple calc\simple_calc.asm
+                RBO_INTR6   0x000109    program     static D:\Real Time\simple calc\simple_calc.asm
+                  TM0_INT   0x000030    program     static D:\Real Time\simple calc\simple_calc.asm
+                 TM0_INT1   0x000059    program     static D:\Real Time\simple calc\simple_calc.asm
+                 TM0_INT2   0x000087    program     static D:\Real Time\simple calc\simple_calc.asm
+                 TM0_INT3   0x0000ac    program     static D:\Real Time\simple calc\simple_calc.asm
+                 TM0_INT4   0x0000c8    program     static D:\Real Time\simple calc\simple_calc.asm
+                 TM0_INT5   0x0000f1    program     static D:\Real Time\simple calc\simple_calc.asm
+                 TM0_INT6   0x00011f    program     static D:\Real Time\simple calc\simple_calc.asm
+              add_numbers   0x0001ed    program     static D:\Real Time\simple calc\simple_calc.asm
+                   add_op   0x0000a8    program     static D:\Real Time\simple calc\simple_calc.asm
+                 addition   0x000174    program     static D:\Real Time\simple calc\simple_calc.asm
+                 chk_tens   0x00007b    program     static D:\Real Time\simple calc\simple_calc.asm
+                chk_tens2   0x000113    program     static D:\Real Time\simple calc\simple_calc.asm
+                     cont   0x00012e    program     static D:\Real Time\simple calc\simple_calc.asm
+                cont_oper   0x00009b    program     static D:\Real Time\simple calc\simple_calc.asm
+                   d_3sec   0x0001f6    program     static D:\Real Time\simple calc\simple_calc.asm
+                  dis_RB0   0x00003f    program     static D:\Real Time\simple calc\simple_calc.asm
+                 dis_RB01   0x000068    program     static D:\Real Time\simple calc\simple_calc.asm
+                 dis_RB02   0x000092    program     static D:\Real Time\simple calc\simple_calc.asm
+                 dis_RB04   0x0000d7    program     static D:\Real Time\simple calc\simple_calc.asm
+                 dis_RB05   0x000100    program     static D:\Real Time\simple calc\simple_calc.asm
+                 dis_RB06   0x00012a    program     static D:\Real Time\simple calc\simple_calc.asm
+                  dis_TM0   0x000036    program     static D:\Real Time\simple calc\simple_calc.asm
+                 dis_TM01   0x00005f    program     static D:\Real Time\simple calc\simple_calc.asm
+                 dis_TM02   0x00008d    program     static D:\Real Time\simple calc\simple_calc.asm
+                 dis_TM03   0x0000b2    program     static D:\Real Time\simple calc\simple_calc.asm
+                 dis_TM04   0x0000ce    program     static D:\Real Time\simple calc\simple_calc.asm
+                 dis_TM05   0x0000f7    program     static D:\Real Time\simple calc\simple_calc.asm
+                 dis_TM06   0x000125    program     static D:\Real Time\simple calc\simple_calc.asm
+                  display   0x0001de    program     static D:\Real Time\simple calc\simple_calc.asm
+                     finl   0x000240    program     static D:\Real Time\simple calc\simple_calc.asm
+              first_click   0x0000b9    program     static D:\Real Time\simple calc\simple_calc.asm
+               get_digits   0x0001cb    program     static D:\Real Time\simple calc\simple_calc.asm
+                    huns1   0x000023    program     static D:\Real Time\simple calc\simple_calc.asm
+                    huns2   0x0000bb    program     static D:\Real Time\simple calc\simple_calc.asm
+                     inid   0x000225    program     static D:\Real Time\simple calc\LCDIS.INC
+                    loop1   0x000207    program     static D:\Real Time\simple calc\LCDIS.INC
+                   loop2d   0x0001fa    program     static D:\Real Time\simple calc\simple_calc.asm
+                    loop3   0x0001bf    program     static D:\Real Time\simple calc\simple_calc.asm
+                   loop3d   0x0001f8    program     static D:\Real Time\simple calc\simple_calc.asm
+                    loop4   0x0001c6    program     static D:\Real Time\simple calc\simple_calc.asm
+                    loop5   0x0001f2    program     static D:\Real Time\simple calc\simple_calc.asm
+                    loopX   0x00020c    program     static D:\Real Time\simple calc\LCDIS.INC
+                    loopd   0x0001fc    program     static D:\Real Time\simple calc\simple_calc.asm
+                   mul_op   0x0000a4    program     static D:\Real Time\simple calc\simple_calc.asm
+             mull_numbers   0x0001f1    program     static D:\Real Time\simple calc\simple_calc.asm
+                    multi   0x000172    program     static D:\Real Time\simple calc\simple_calc.asm
+                   normal   0x000076    program     static D:\Real Time\simple calc\simple_calc.asm
+                  normal1   0x00010e    program     static D:\Real Time\simple calc\simple_calc.asm
+                    onems   0x000205    program     static D:\Real Time\simple calc\LCDIS.INC
+                    ones1   0x00006c    program     static D:\Real Time\simple calc\simple_calc.asm
+                    ones2   0x000104    program     static D:\Real Time\simple calc\simple_calc.asm
+                operation   0x000096    program     static D:\Real Time\simple calc\simple_calc.asm
+             print_result   0x000199    program     static D:\Real Time\simple calc\simple_calc.asm
+                   pulseE   0x000210    program     static D:\Real Time\simple calc\LCDIS.INC
+                   putLCD   0x00017a    program     static D:\Real Time\simple calc\simple_calc.asm
+        rolling_ones2_5_0   0x000118    program     static D:\Real Time\simple calc\simple_calc.asm
+         rolling_ones_5_0   0x000080    program     static D:\Real Time\simple calc\simple_calc.asm
+        rolling_tens2_5_0   0x0000ea    program     static D:\Real Time\simple calc\simple_calc.asm
+         rolling_tens_5_0   0x000052    program     static D:\Real Time\simple calc\simple_calc.asm
+                     rtrn   0x000179    program     static D:\Real Time\simple calc\simple_calc.asm
+                     send   0x000215    program     static D:\Real Time\simple calc\LCDIS.INC
+                      sho   0x000175    program     static D:\Real Time\simple calc\simple_calc.asm
+                    start   0x000134    program     static D:\Real Time\simple calc\simple_calc.asm
+                   start2   0x000165    program     static D:\Real Time\simple calc\simple_calc.asm
+                     sub3   0x0001cd    program     static D:\Real Time\simple calc\simple_calc.asm
+                     sub4   0x0001d5    program     static D:\Real Time\simple calc\simple_calc.asm
+                    tens1   0x000043    program     static D:\Real Time\simple calc\simple_calc.asm
+                    tens2   0x0000db    program     static D:\Real Time\simple calc\simple_calc.asm
+                      xms   0x00020b    program     static D:\Real Time\simple calc\LCDIS.INC
+                zero_huns   0x00002e    program     static D:\Real Time\simple calc\simple_calc.asm
+               zero_huns2   0x0000c6    program     static D:\Real Time\simple calc\simple_calc.asm
+                zero_ones   0x000085    program     static D:\Real Time\simple calc\simple_calc.asm
+               zero_ones2   0x00011d    program     static D:\Real Time\simple calc\simple_calc.asm
+                zero_tens   0x000057    program     static D:\Real Time\simple calc\simple_calc.asm
+               zero_tens2   0x0000ef    program     static D:\Real Time\simple calc\simple_calc.asm
+
+
+
+                              Symbols - Sorted by Address
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                      ISR   0x000001    program     static D:\Real Time\simple calc\simple_calc.asm
+                    huns1   0x000023    program     static D:\Real Time\simple calc\simple_calc.asm
+                 RBO_INTR   0x000028    program     static D:\Real Time\simple calc\simple_calc.asm
+                zero_huns   0x00002e    program     static D:\Real Time\simple calc\simple_calc.asm
+                  TM0_INT   0x000030    program     static D:\Real Time\simple calc\simple_calc.asm
+                  dis_TM0   0x000036    program     static D:\Real Time\simple calc\simple_calc.asm
+                  dis_RB0   0x00003f    program     static D:\Real Time\simple calc\simple_calc.asm
+                    tens1   0x000043    program     static D:\Real Time\simple calc\simple_calc.asm
+                RBO_INTR1   0x000048    program     static D:\Real Time\simple calc\simple_calc.asm
+         rolling_tens_5_0   0x000052    program     static D:\Real Time\simple calc\simple_calc.asm
+                zero_tens   0x000057    program     static D:\Real Time\simple calc\simple_calc.asm
+                 TM0_INT1   0x000059    program     static D:\Real Time\simple calc\simple_calc.asm
+                 dis_TM01   0x00005f    program     static D:\Real Time\simple calc\simple_calc.asm
+                 dis_RB01   0x000068    program     static D:\Real Time\simple calc\simple_calc.asm
+                    ones1   0x00006c    program     static D:\Real Time\simple calc\simple_calc.asm
+                RBO_INTR2   0x000071    program     static D:\Real Time\simple calc\simple_calc.asm
+                   normal   0x000076    program     static D:\Real Time\simple calc\simple_calc.asm
+                 chk_tens   0x00007b    program     static D:\Real Time\simple calc\simple_calc.asm
+         rolling_ones_5_0   0x000080    program     static D:\Real Time\simple calc\simple_calc.asm
+                zero_ones   0x000085    program     static D:\Real Time\simple calc\simple_calc.asm
+                 TM0_INT2   0x000087    program     static D:\Real Time\simple calc\simple_calc.asm
+                 dis_TM02   0x00008d    program     static D:\Real Time\simple calc\simple_calc.asm
+                 dis_RB02   0x000092    program     static D:\Real Time\simple calc\simple_calc.asm
+                operation   0x000096    program     static D:\Real Time\simple calc\simple_calc.asm
+                cont_oper   0x00009b    program     static D:\Real Time\simple calc\simple_calc.asm
+                RBO_INTR3   0x0000a0    program     static D:\Real Time\simple calc\simple_calc.asm
+                   mul_op   0x0000a4    program     static D:\Real Time\simple calc\simple_calc.asm
+                   add_op   0x0000a8    program     static D:\Real Time\simple calc\simple_calc.asm
+                 TM0_INT3   0x0000ac    program     static D:\Real Time\simple calc\simple_calc.asm
+                 dis_TM03   0x0000b2    program     static D:\Real Time\simple calc\simple_calc.asm
+              first_click   0x0000b9    program     static D:\Real Time\simple calc\simple_calc.asm
+                    huns2   0x0000bb    program     static D:\Real Time\simple calc\simple_calc.asm
+                RBO_INTR4   0x0000c0    program     static D:\Real Time\simple calc\simple_calc.asm
+               zero_huns2   0x0000c6    program     static D:\Real Time\simple calc\simple_calc.asm
+                 TM0_INT4   0x0000c8    program     static D:\Real Time\simple calc\simple_calc.asm
+                 dis_TM04   0x0000ce    program     static D:\Real Time\simple calc\simple_calc.asm
+                 dis_RB04   0x0000d7    program     static D:\Real Time\simple calc\simple_calc.asm
+                    tens2   0x0000db    program     static D:\Real Time\simple calc\simple_calc.asm
+                RBO_INTR5   0x0000e0    program     static D:\Real Time\simple calc\simple_calc.asm
+        rolling_tens2_5_0   0x0000ea    program     static D:\Real Time\simple calc\simple_calc.asm
+               zero_tens2   0x0000ef    program     static D:\Real Time\simple calc\simple_calc.asm
+                 TM0_INT5   0x0000f1    program     static D:\Real Time\simple calc\simple_calc.asm
+                 dis_TM05   0x0000f7    program     static D:\Real Time\simple calc\simple_calc.asm
+                 dis_RB05   0x000100    program     static D:\Real Time\simple calc\simple_calc.asm
+                    ones2   0x000104    program     static D:\Real Time\simple calc\simple_calc.asm
+                RBO_INTR6   0x000109    program     static D:\Real Time\simple calc\simple_calc.asm
+                  normal1   0x00010e    program     static D:\Real Time\simple calc\simple_calc.asm
+                chk_tens2   0x000113    program     static D:\Real Time\simple calc\simple_calc.asm
+        rolling_ones2_5_0   0x000118    program     static D:\Real Time\simple calc\simple_calc.asm
+               zero_ones2   0x00011d    program     static D:\Real Time\simple calc\simple_calc.asm
+                 TM0_INT6   0x00011f    program     static D:\Real Time\simple calc\simple_calc.asm
+                 dis_TM06   0x000125    program     static D:\Real Time\simple calc\simple_calc.asm
+                 dis_RB06   0x00012a    program     static D:\Real Time\simple calc\simple_calc.asm
+                     cont   0x00012e    program     static D:\Real Time\simple calc\simple_calc.asm
+                    start   0x000134    program     static D:\Real Time\simple calc\simple_calc.asm
+                   start2   0x000165    program     static D:\Real Time\simple calc\simple_calc.asm
+                    multi   0x000172    program     static D:\Real Time\simple calc\simple_calc.asm
+                 addition   0x000174    program     static D:\Real Time\simple calc\simple_calc.asm
+                      sho   0x000175    program     static D:\Real Time\simple calc\simple_calc.asm
+                     rtrn   0x000179    program     static D:\Real Time\simple calc\simple_calc.asm
+                   putLCD   0x00017a    program     static D:\Real Time\simple calc\simple_calc.asm
+             print_result   0x000199    program     static D:\Real Time\simple calc\simple_calc.asm
+               MUL_BY_100   0x0001bc    program     static D:\Real Time\simple calc\simple_calc.asm
+                    loop3   0x0001bf    program     static D:\Real Time\simple calc\simple_calc.asm
+                MUL_BY_10   0x0001c3    program     static D:\Real Time\simple calc\simple_calc.asm
+                    loop4   0x0001c6    program     static D:\Real Time\simple calc\simple_calc.asm
+               get_digits   0x0001cb    program     static D:\Real Time\simple calc\simple_calc.asm
+                     sub3   0x0001cd    program     static D:\Real Time\simple calc\simple_calc.asm
+                     sub4   0x0001d5    program     static D:\Real Time\simple calc\simple_calc.asm
+                  display   0x0001de    program     static D:\Real Time\simple calc\simple_calc.asm
+              add_numbers   0x0001ed    program     static D:\Real Time\simple calc\simple_calc.asm
+             mull_numbers   0x0001f1    program     static D:\Real Time\simple calc\simple_calc.asm
+                    loop5   0x0001f2    program     static D:\Real Time\simple calc\simple_calc.asm
+                   d_3sec   0x0001f6    program     static D:\Real Time\simple calc\simple_calc.asm
+                   loop3d   0x0001f8    program     static D:\Real Time\simple calc\simple_calc.asm
+                   loop2d   0x0001fa    program     static D:\Real Time\simple calc\simple_calc.asm
+                    loopd   0x0001fc    program     static D:\Real Time\simple calc\simple_calc.asm
+                    onems   0x000205    program     static D:\Real Time\simple calc\LCDIS.INC
+                    loop1   0x000207    program     static D:\Real Time\simple calc\LCDIS.INC
+                      xms   0x00020b    program     static D:\Real Time\simple calc\LCDIS.INC
+                    loopX   0x00020c    program     static D:\Real Time\simple calc\LCDIS.INC
+                   pulseE   0x000210    program     static D:\Real Time\simple calc\LCDIS.INC
+                     send   0x000215    program     static D:\Real Time\simple calc\LCDIS.INC
+                     inid   0x000225    program     static D:\Real Time\simple calc\LCDIS.INC
+                     finl   0x000240    program     static D:\Real Time\simple calc\simple_calc.asm
+
+
